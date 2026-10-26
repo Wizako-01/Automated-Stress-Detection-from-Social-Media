@@ -1,0 +1,43 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Datasets
+data/
+datasets/
+downloads/
+cache/
+.cache/
+
+# Trained models
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+models/
+checkpoint-*/
+runs/
+wandb/
+
+# Generated experiment files
+dreaddit_model_comparison.csv
+dreaddit_feature_importance.csv
+dreaddit_feature_ablation.csv
+dreaddit_clean_ablation.csv
+
+# Temporary and system files
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
